@@ -14,16 +14,30 @@
 
 .title {
     font-weight: 900;
+    font-size: 40px;
+    text-align: center;
 }
 
 .header div a {
     text-decoration: none;
     color: black;
     margin-left: 30px;
+    text-align: center;
 }
 
 .nav-img {
-    width: 70px;
+    margin-top: 30px;
+    width: 50px;
     border-radius: 250px;
     margin-left: 20px;
+}
+
+.header-section hr {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header-section{
+    margin-top: 10px;
 }
