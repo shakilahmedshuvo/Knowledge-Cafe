@@ -17,7 +17,7 @@ const SingleCard = (props) => {
                             <p>{date}</p>
                         </div>
                     </div>
-                    <div>
+                    <div className='bookmark-section'>
                         <p>{time} min read <FontAwesomeIcon onClick={() => handleBookMarks(props.card)} className='bookmarkBtn'
                             icon={faBookmark}
                         ></FontAwesomeIcon>
@@ -25,7 +25,7 @@ const SingleCard = (props) => {
                     </div>
                 </div>
                 <h3 className='title'>{title}</h3>
-                <a className='markReadBtn' href="">Mark as Read</a>
+                <a className='markReadAncor' href="">Mark as Read</a>
             </div>
         </div>
     );

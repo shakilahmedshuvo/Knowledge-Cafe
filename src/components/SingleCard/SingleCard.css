@@ -21,3 +21,10 @@
 .author-info{
     font-weight: 900;
 }
+.markReadAncor{
+    color: #6047EC;
+}
+.bookmark-section{
+    display: flex;
+    justify-content: end;
+}
