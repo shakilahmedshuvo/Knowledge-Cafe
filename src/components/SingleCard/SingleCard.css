@@ -2,3 +2,22 @@
     margin-top: 50px;
     margin: 100px;
 }
+.single-container{
+    margin-bottom: 40px
+}
+.autor-img-section{
+    display: flex;
+}
+.userImg{
+    width: 20%;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+.card{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.author-info{
+    font-weight: 900;
+}

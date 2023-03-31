@@ -8,20 +8,24 @@ const SingleCard = (props) => {
     return (
         <div className='single-container'>
             <img className='coverImg' src={img} alt="" />
-            <img className='userImg' src={userImg} alt="" />
             <div className='info-container'>
-                <div>
-                    <p className='author-info'>{author}</p>
-                    <p>{date}</p>
-                </div>
-                <div>
-                    <p>{time} min read <FontAwesomeIcon onClick={() => handleBookMarks(props.card)} className='font-awesome'
-                        icon={faBookmark}
-                    ></FontAwesomeIcon>
-                    </p>
+                <div className='card'>
+                    <div className='autor-img-section'>
+                        <img className='userImg' src={userImg} alt="" />
+                        <div>
+                            <p className='author-info'>{author}</p>
+                            <p>{date}</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>{time} min read <FontAwesomeIcon onClick={() => handleBookMarks(props.card)} className='bookmarkBtn'
+                            icon={faBookmark}
+                        ></FontAwesomeIcon>
+                        </p>
+                    </div>
                 </div>
                 <h3 className='title'>{title}</h3>
-                <a className='ancor' href="">Mark as Read</a>
+                <a className='markReadBtn' href="">Mark as Read</a>
             </div>
         </div>
     );
