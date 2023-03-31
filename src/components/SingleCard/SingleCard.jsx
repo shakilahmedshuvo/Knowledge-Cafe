@@ -15,7 +15,7 @@ const SingleCard = (props) => {
                     <p>{date}</p>
                 </div>
                 <div>
-                    <p>{time} min read <FontAwesomeIcon className='font-awesome'
+                    <p>{time} min read <FontAwesomeIcon onClick={() => handleBookMarks(props.card)} className='font-awesome'
                         icon={faBookmark}
                     ></FontAwesomeIcon>
                     </p>
