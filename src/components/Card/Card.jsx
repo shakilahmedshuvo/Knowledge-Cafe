@@ -19,7 +19,6 @@ const Card = () => {
     return (
         <div className='main-container'>
             <div className='cards-container'>
-                <h1>{cards.length}</h1>
                 {
                     cards.map(card => <SingleCard
                         card={card}
