@@ -3,32 +3,36 @@
         "id": "1",
         "author name": "Mr. Raju",
         "title": "How to get your first job as a self-taught programmer",
-        "img": "https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1498&q=80",
+        "img": "https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "user-img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-        "date": "Mar 14 (4 Days ago)"
+        "date": "Mar 14 (4 Days ago)",
+        "time": "5"
     },
     {
         "id": "2",
         "author name": "Mrs. Setara",
         "title": "How to get your first job as a self-taught programmer",
-        "img": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "img": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
         "user-img": "https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?w=826&t=st=1680248907~exp=1680249507~hmac=6eae27667da0042e56023b15fc7fbac64052c6e6bd2fb868bb38e3fa69b8f1a6",
-        "date": "Mar 14 (4 Days ago)"
+        "date": "Mar 14 (3 Days ago)",
+        "time": "10"
     },
     {
         "id": "3",
         "author name": "Mina Mostofa",
         "title": "How to get your first job as a self-taught programmer",
-        "img": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+        "img": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "user-img": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=826&t=st=1680248874~exp=1680249474~hmac=4ce1ffef19e51b9d3555efb65ea47df7983864001dda51ebc2c8c8ae7ea928f4",
-        "date": "Mar 14 (4 Days ago)"
+        "date": "Mar 14 (2 Days ago)",
+        "time": "12"
     },
     {
         "id": "4",
         "author name": "Shakil Ahmed",
         "title": "How to get your first job as a self-taught programmer",
-        "img": "https://images.unsplash.com/photo-1618422168181-177d9d0a1fca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "img": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "user-img": "https://www.freepik.com/free-photo/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes_9014167.htm#query=user&position=9&from_view=search&track=sph",
-        "date": "Mar 14 (4 Days ago)"
+        "date": "Mar 14 (1 Days ago)",
+        "time": "20"
     }
 ]

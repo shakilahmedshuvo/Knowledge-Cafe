@@ -9,21 +9,23 @@ const Card = () => {
     // const [titles, setTitles] = useState([])
     // 
 
-    useEffect(()=>{
+    useEffect(() => {
         fetch('data.json')
-        .then(res=>res.json())
-        .then(data=>console.log(data))
-    })
+            .then(res => res.json())
+            .then(data => setCards(data))
+        // .then(data=>console.log(data))
+    }, [])
 
     return (
         <div className='main-container'>
             <div className='cards-container'>
-        {
-            cards.map(card => <SingleCard card={card}
-                key={card.id}>
-
-                </SingleCard>)
-        }
+                <h1>{cards.length}</h1>
+                {
+                    cards.map(card => <SingleCard
+                        card={card}
+                        key={card.id}
+                    ></SingleCard>)
+                }
             </div>
         </div>
     );
