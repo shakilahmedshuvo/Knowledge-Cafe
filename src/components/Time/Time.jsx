@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 const Time = ({ timeWatch }) => {
     const [showTime, setShowTime] = useState(timeWatch)
     useEffect(() => {
-        const getTimeFromStorage = localStorage.getItem("Add-Time")
-        setShowTime(getTimeFromStorage);
+        const getTimeFromLocalStorage = localStorage.getItem("Add-Time")
+        setShowTime(getTimeFromLocalStorage);
     }, [timeWatch])
 
     return (

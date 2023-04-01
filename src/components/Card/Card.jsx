@@ -7,6 +7,7 @@ import Bookmark from '../BookMark/Bookmark';
 
 const Card = () => {
     const [timeWatch, setTimeWatch] = useState("")
+    console.log(timeWatch);
     const [cards, setCards] = useState([])
     const [title, setTitle] = useState([])
 
@@ -15,7 +16,6 @@ const Card = () => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setCards(data))
-        // .then(data=>console.log(data))
     }, [])
 
     // add to cart
@@ -32,12 +32,13 @@ const Card = () => {
             localStorage.setItem("Add-Time", addSum)
             setTimeWatch(addSum)
         }
-        
         else {
             localStorage.setItem("Add-Times", times)
             setTimeWatch(times)
         }
+
     }
+
     return (
         <div className='main-container'>
             <div className='cards-container'>
