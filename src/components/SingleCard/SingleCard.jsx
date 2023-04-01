@@ -5,6 +5,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const SingleCard = (props) => {
     const { author, date, img, title, userImg, time } = props.card
+    const handleAddToCart = props.handleAddToCart
     return (
         <div className='single-container'>
             <img className='coverImg' src={img} alt="" />
@@ -18,7 +19,8 @@ const SingleCard = (props) => {
                         </div>
                     </div>
                     <div className='bookmark-section'>
-                        <p>{time} min read <FontAwesomeIcon onClick={() => handleBookMarks(props.card)} className='bookmarkBtn'
+                        <p>{time} min read <FontAwesomeIcon
+                            onClick={() => handleAddToCart(props.card)} className='bookmarkBtn'
                             icon={faBookmark}
                         ></FontAwesomeIcon>
                         </p>

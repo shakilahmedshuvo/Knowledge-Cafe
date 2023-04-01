@@ -18,6 +18,11 @@ const Card = () => {
         // .then(data=>console.log(data))
     }, [])
 
+    // add to cart
+    const handleAddToCart = (card) => {
+        console.log(card)
+    }
+
     // mark read
     const marksRead = (times) => {
         const addTime = JSON.parse(localStorage.getItem('Add-Time'))
@@ -38,6 +43,7 @@ const Card = () => {
                     cards.map(card => <SingleCard
                         card={card}
                         key={card.id}
+                        handleAddToCart={handleAddToCart}
                     ></SingleCard>)
                 }
             </div>
