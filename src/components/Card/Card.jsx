@@ -32,8 +32,6 @@ const Card = () => {
         }
     }
 
-    console.log({title});
-
     // mark read
     const marksRead = (times) => {
         const addTime = JSON.parse(localStorage.getItem('addTime'))

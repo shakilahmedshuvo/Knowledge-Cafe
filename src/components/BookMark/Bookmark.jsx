@@ -3,7 +3,6 @@ import './Bookmark.css'
 
 const Bookmark = (props) => {
     const title = props.title
-    console.log(title);
     const [titles, setTitles] = useState([]);
     useEffect(() => {
         const savedTitles = JSON.parse(localStorage.getItem("titles"));
@@ -14,7 +13,7 @@ const Bookmark = (props) => {
         <div className='bookmark-count'>
             <h2>Bookmarked Blogs:{titles?.length}</h2>
             {
-                titles.map(item=>(
+                titles?.map(item=>(
                     <h1>{item}</h1>
                 ))
             }
