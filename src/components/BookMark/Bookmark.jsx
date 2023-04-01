@@ -14,7 +14,7 @@ const Bookmark = (props) => {
             <h2>Bookmarked Blogs:{titles?.length}</h2>
             {
                 titles?.map(item=>(
-                    <h1>{item}</h1>
+                    <h3 className='dynamicTitle'>{item}</h3>
                 ))
             }
         </div>

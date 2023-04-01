@@ -1,6 +1,11 @@
 .bookmark-count{
     margin-top: 20px;
-    border: 1px solid black;
     border-radius: 8px;
     padding: 3px;
+    margin-top: 10px;
+}
+.dynamicTitle{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
 }
