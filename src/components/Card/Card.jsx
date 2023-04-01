@@ -7,7 +7,6 @@ import Bookmark from '../BookMark/Bookmark';
 
 const Card = () => {
     const [timeWatch, setTimeWatch] = useState("")
-    console.log(timeWatch);
     const [cards, setCards] = useState([])
     const [title, setTitle] = useState([])
 
@@ -20,20 +19,31 @@ const Card = () => {
 
     // add to cart
     const handleAddToCart = (card) => {
-        const newTitles = [...title, card];
-        setTitle(newTitles);
+        const savedTitles = JSON.parse(localStorage.getItem("titles"));
+        if (savedTitles?.length > 0) {
+            const newTitles = [...savedTitles, card.title];
+            localStorage.setItem('titles', JSON.stringify(newTitles))
+            setTitle(newTitles);
+        }
+        else {
+            const newTitles = [...title, card.title];
+            localStorage.setItem('titles', JSON.stringify(newTitles))
+            setTitle(newTitles);
+        }
     }
+
+    console.log({title});
 
     // mark read
     const marksRead = (times) => {
-        const addTime = JSON.parse(localStorage.getItem('Add-Time'))
+        const addTime = JSON.parse(localStorage.getItem('addTime'))
         if (addTime) {
             const addSum = addTime + times
-            localStorage.setItem("Add-Time", addSum)
+            localStorage.setItem("addTime", addSum)
             setTimeWatch(addSum)
         }
         else {
-            localStorage.setItem("Add-Times", times)
+            localStorage.setItem("addTime", times)
             setTimeWatch(times)
         }
 
