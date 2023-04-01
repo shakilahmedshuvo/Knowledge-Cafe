@@ -1,11 +1,14 @@
 import React from 'react';
 import './DisplayData.css'
+import ''
+import Card from '../Card/Card';
 
-const DisplayData = (props) => {
-    const { title } = props.title;
+const DisplayData = () => {
+  
+   
     return (
-        <div>
-            <h4>{title}</h4>
+        <div> 
+            {/* <h4>{title}</h4> */}
         </div>
     );
 };

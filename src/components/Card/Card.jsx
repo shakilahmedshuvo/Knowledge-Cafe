@@ -32,6 +32,7 @@ const Card = () => {
             localStorage.setItem("Add-Time", addSum)
             setTimeWatch(addSum)
         }
+        
         else {
             localStorage.setItem("Add-Times", times)
             setTimeWatch(times)
@@ -55,7 +56,9 @@ const Card = () => {
                     ></Time>
                 </div>
                 <div className='bookmarkBody'>
-                <h2>Bookmarked Blogs:{title.length}</h2>
+                    <Bookmark
+                        title={title}
+                    ></Bookmark>
                 </div>
             </div>
         </div>
