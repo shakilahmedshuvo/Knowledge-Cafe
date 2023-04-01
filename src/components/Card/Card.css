@@ -19,5 +19,7 @@
 .bookmarkBody {
     background: rgba(17, 17, 17, 0.05);
     border-radius: 8px;
+    font-weight: 900;
+    font-size: 17px;
     padding: 13px;
 }

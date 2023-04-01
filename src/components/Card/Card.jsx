@@ -8,7 +8,7 @@ import Bookmark from '../BookMark/Bookmark';
 const Card = () => {
     const [timeWatch, setTimeWatch] = useState("")
     const [cards, setCards] = useState([])
-    const [titles, setTitles] = useState([])
+    const [title, setTitle] = useState([])
 
     // data fetch
     useEffect(() => {
@@ -20,7 +20,8 @@ const Card = () => {
 
     // add to cart
     const handleAddToCart = (card) => {
-        console.log(card)
+        const newTitles = [...title, card];
+        setTitle(newTitles);
     }
 
     // mark read
@@ -44,6 +45,7 @@ const Card = () => {
                         card={card}
                         key={card.id}
                         handleAddToCart={handleAddToCart}
+                        marksRead={marksRead}
                     ></SingleCard>)
                 }
             </div>
@@ -53,9 +55,7 @@ const Card = () => {
                     ></Time>
                 </div>
                 <div className='bookmarkBody'>
-                    <Bookmark
-                    // title={title}
-                    ></Bookmark>
+                <h2>Bookmarked Blogs:{title.length}</h2>
                 </div>
             </div>
         </div>
