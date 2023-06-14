@@ -61,8 +61,9 @@ const Card = () => {
             </div>
             <div className='bookmark-container'>
                 <div className='bookmark-title'>
-                    <Time timeWatch={timeWatch}
-                    ></Time>
+                    <Time
+                        timeWatch={timeWatch}>
+                    </Time>
                 </div>
                 <div className='bookmarkBody'>
                     <Bookmark

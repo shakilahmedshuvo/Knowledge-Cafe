@@ -9,7 +9,9 @@ const Time = ({ timeWatch }) => {
 
     return (
         <div>
-            <h3>Spent time on Read:{showTime} min</h3>
+            <h3>
+                Spent time on Read:{showTime} min
+            </h3>
         </div>
     );
 };
